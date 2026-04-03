@@ -80,7 +80,7 @@
                 
                 <!-- Menú Desktop -->
                 <div class="hidden md:flex space-x-8">
-                    <a href="#home" class="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium tracking-wide transition-colors">INICIO</a>
+                    <a href="./" class="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium tracking-wide transition-colors">INICIO</a>
                     <a href="#equipos" class="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium tracking-wide transition-colors">EQUIPOS</a>
                     <a href="#contacto" class="bg-brand-red hover:bg-red-700 text-white px-6 py-2 text-sm font-medium tracking-wide transition-colors rounded-lg">CONTACTO</a>
                 </div>
@@ -173,13 +173,18 @@
             </div>
 
             <article class="bg-white shadow-xl overflow-hidden flex flex-col lg:flex-row">
-                <!-- Imagen del equipo -->
-                <div class="lg:w-1/2 bg-product min-h-[400px] lg:min-h-full relative" role="img" aria-label="Rolo Triturador KR-70 en el campo">
-                    <div class="absolute inset-0 bg-brand-dark/10" aria-hidden="true"></div>
-                    <div class="absolute top-6 left-6 bg-brand-red text-white font-heading px-4 py-1 uppercase tracking-wider text-sm font-bold shadow-sm">
-                        Equipo Insignia
-                    </div>
+            <!-- Imagen del equipo con estilo en línea -->
+            <div class="lg:w-1/2 min-h-[400px] lg:min-h-full relative" 
+                 style="background-image: url('https://image.qwenlm.ai/public_source/2a78b3cc-3750-4538-8ff8-0a908b50864b/136f555cc-474e-47db-a406-85695aad0445.png'); background-size: cover; background-position: center;"
+                 role="img" 
+                 aria-label="Rolo Triturador KR-70 en el campo">
+                
+                <div class="absolute inset-0 bg-brand-dark/10" aria-hidden="true"></div>
+                
+                <div class="absolute top-6 left-6 bg-brand-red text-white font-heading px-4 py-1 uppercase tracking-wider text-sm font-bold shadow-sm">
+                    Equipo Insignia
                 </div>
+            </div>
                 
                 <!-- Info del equipo -->
                 <div class="lg:w-1/2 p-8 md:p-12 lg:p-16 flex flex-col justify-center">
